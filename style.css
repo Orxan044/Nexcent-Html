@@ -147,3 +147,175 @@ body{
     justify-content: center;
 }
 
+.ourClients{
+    margin-top: 26px;
+    height: 190px;
+}
+
+
+.ourClients p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 44px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.ourClients span{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #717171;
+    font-weight: 400;
+}
+
+.clientsLogo{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 50px;
+    gap: 160px;
+} 
+
+.clientsLogo img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.achievements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 64px;
+    background-color: #F5F7FA;
+    height: 288px;
+}
+
+.achTexts{
+    flex: 1;
+    margin-left: 144px;
+}
+
+.achTextBlack{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+}
+
+.achTextGreen{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4CAF4F;
+}
+
+.achTexts span{
+    font-weight: 400;
+    color: #18191F;
+}
+
+.achievements img{
+    margin-right: 144px;
+}
+
+.community{
+    height: 506px;
+}
+
+.comTexts{
+    flex: 1;
+    gap: 8px;
+    width: 1110px;
+    height: 124px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left: 185px;
+}
+
+.comTexts span{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+    height: 44px;
+}
+
+.comTextLenght{
+    font-size: 16px;
+    font-weight: 400;
+    color: #717171;
+    max-width: 628px;
+    height: 72px;
+    word-wrap: break-word;
+    margin-left: 50px;
+}
+.communityImgs{
+    display: flex;
+    align-items: center;
+    height: 366px;
+    gap: 10px;
+    margin-left: 208px;
+    margin-top: 15px;
+}
+
+
+.communityImgs img{
+    height: 356px;
+    width: 320px;
+
+}
+
+.unlock{
+    height: 433.4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.unlock img{
+    margin-left: 144px;   
+}
+
+.learnMore{
+    display: flex;
+    flex-direction: column;
+}
+
+.learnMoreTxt1{
+    color: #4D4D4D;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    max-width: 621px;
+    max-height: 88px;
+    word-wrap: break-word;
+
+}
+
+.learnMore .learnMoreTxt2{
+    color: #717171;
+    word-wrap: break-word;
+    max-width: 621px;
+    max-height: 220px;
+    gap: 5px;
+}
+
+/* .learnMore .learnMoreTxt2{
+
+    color: #717171;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 520px;
+    max-height: 200px;
+    word-wrap: break-word;
+
+
+} */
