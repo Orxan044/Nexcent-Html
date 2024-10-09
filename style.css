@@ -20,6 +20,7 @@ body{
 .logo{
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-left: 105px;
 }
 
@@ -173,9 +174,11 @@ body{
 
 .clientsLogo{
     display: flex;
-    margin-left: 160px;
+    align-items: center;
+    justify-content: center;
     margin-top: 50px;
     gap: 160px;
+
 } 
 
 .clientsLogo img{
@@ -222,45 +225,45 @@ body{
 }
 
 .community{
-    height: 506px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
 
-.comTexts{
-    flex: 1;
-    gap: 8px;
-    width: 1110px;
-    height: 124px;
+.community span{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin-top: 120px;
-    margin-left: 185px;
-}
-
-.comTexts span{
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
     color: #4D4D4D;
     height: 44px;
+    margin-top: 58px;
 }
 
-.comTextLenght{
+.community p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     font-weight: 400;
     color: #717171;
     max-width: 628px;
     height: 72px;
     word-wrap: break-word;
-    margin-left: 50px;
+    text-align: center;
+    margin-top: 8px;
 }
+
 .communityImgs{
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 366px;
     gap: 10px;
-    margin-left: 208px;
     margin-top: 15px;
 }
 
@@ -268,54 +271,202 @@ body{
 .communityImgs img{
     height: 356px;
     width: 320px;
-
 }
 
 .unlock{
     height: 433.4px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 55px;
+    gap: 50px;
+    
 }
 
-.unlock img{
-    margin-left: 144px;   
-}
-
-.learnMore{
+.learnMore {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 18px; 
 }
 
-.learnMoreTxt1{
+.learnMore {
+    display: flex;
+    flex-direction: column; 
+    gap: 18px;
+}
+
+.learnMoreTxt1 {
     color: #4D4D4D;
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
     max-width: 621px;
-    max-height: 88px;
     word-wrap: break-word;
-
 }
 
-.learnMore .learnMoreTxt2{
+.learnMoreTxt2 {
     color: #717171;
     word-wrap: break-word;
     max-width: 621px;
     max-height: 220px;
-    gap: 5px;
 }
 
-/* .learnMore .learnMoreTxt2{
+.unlock button {
+    background-color: #4CAF4F;
+    width: 151px;
+    height: 52px;
+    border-radius: 4px;
+    border-color: transparent;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
 
-    color: #717171;
-    font-weight: 400;
+footer{
+    height: 328px;
+    background-color: #263238;
+    color: #FFFFFF;
+    margin-top: 64px;
+}
+
+.footerList{
+    height: 300px;
+    width: 1140px;
+    gap: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 135px;
+
+}
+.companyInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 40px;
+    gap: 40px;
+}
+
+.companyInfo img{
+    width: 191px;
+    height: 29.67px;
+}
+
+.copyRight span{
+    display: flex;
+    flex-direction: column;
     font-size: 14px;
     line-height: 20px;
-    max-width: 520px;
-    max-height: 200px;
-    word-wrap: break-word;
+    color: #F5F7FA;
+    margin-left: 15px;
+}
 
+.socialMedia{
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+}
 
-} */
+.socialMedia a{
+    background-color: #3c464c;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-color: lightgray;
+    border-radius: 100%;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.col1 , .col2{
+    width: 160px;
+    height: 200px;
+    gap: 24px;
+
+}
+
+.col1List , .col2List{
+    list-style: none;
+    text-decoration: none;   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.col1List a , .col2List a{
+    color: #F5F7FA;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.listHeader a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.col3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.col3 span{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 250px; /* Genişliği ayarlayabilirsiniz */
+}
+
+#inputEmail {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.send-button {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 8px 12px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.send-button:hover {
+    background-color: #0056b3;
+}
